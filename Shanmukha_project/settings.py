@@ -20,7 +20,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'dummy-secret-for-dev-only')
 
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['staywise-backend.onrender.com', 'localhost', 'staywise-backend-1.onrender.com'] # Or use Render's domain after deployment
+ALLOWED_HOSTS = ['staywise-backend-2.onrender.com', 'localhost', 'staywise-backend-1.onrender.com'] # Or use Render's domain after deployment
 
 
 
