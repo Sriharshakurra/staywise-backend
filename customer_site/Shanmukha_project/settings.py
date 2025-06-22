@@ -49,6 +49,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Shanmukha_project.urls'
+WSGI_APPLICATION = 'Shanmukha_project.wsgi.application'
 
 TEMPLATES = [
     {
